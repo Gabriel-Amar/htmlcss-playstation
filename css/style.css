@@ -11,4 +11,38 @@
     margin-top: 12px;
     margin-left: 14px
 }
-
+#playstation5{
+    margin-top: 150px;
+}
+#jumbo > div > div{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+@media (min-width: 992px) {
+    #console-card > div > div:nth-child(1) > img{
+        width: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #console-card > div > div:nth-child(2) > img{
+        width: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #console-card > div > div:nth-child(3) > img{
+        width: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #console-card > div > div:nth-child(4) > img{
+        width: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #console-card > div > div:nth-child(5) > img{
+        width: 100px;
+    }
+}
+#cards .container .row div img{
+    border-radius: 20px;
+}
