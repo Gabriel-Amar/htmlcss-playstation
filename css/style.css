@@ -1,0 +1,14 @@
+.navbar{
+    background-color: black;
+}
+.navbar-brand img{
+    width: 60px;
+}
+#navbarSupportedContent > form > button{
+    border-radius: 20px;
+}
+.fa-magnifying-glass{
+    margin-top: 12px;
+    margin-left: 14px
+}
+
