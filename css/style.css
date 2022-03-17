@@ -12,11 +12,30 @@
     margin-left: 14px
 }
 #playstation5{
-    margin-top: 150px;
+    margin-top: 40px;
+}
+#jumbo{
+    margin-top: 135px;
 }
 #jumbo > div > div{
     background-color: rgba(0, 0, 0, 0);
     color: white;
+}
+#jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    height: 695px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: 320px;
+    left: 7px;
+}
+#playstation5 > div:nth-child(1){
+    margin-bottom: 100px;
 }
 @media (min-width: 992px) {
     #console-card > div > div:nth-child(1) > img{
@@ -43,6 +62,9 @@
         width: 100px;
     }
 }
-#cards .container .row div img{
+#cards .container-fluid .row div img{
+    border-radius: 20px;
+}
+#playstation5 .container-fluid .row div img{
     border-radius: 20px;
 }
