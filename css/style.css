@@ -34,7 +34,7 @@
 #jumbo .container-fluid{
     float: left;
     padding-left: 20px;
-    padding-top: 380px;
+    padding-top: 330px;
 }
 #jumbo > div > button, #jumbo2 > div > button{
     color: white;
@@ -99,6 +99,36 @@
 h1{
     font-size: 2.5em;
 }
+footer{
+    background-color: #00439c;
+}
+footer ul li{
+    color: white;
+    list-style-type: none;
+}
+footer ul{
+    width: calc(50% - 2em);
+    margin: 1em;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media screen and (max-width: 768px){
     #jumbo .container-fluid img{
         width: 75%;
@@ -187,5 +217,35 @@ h1{
 @media screen and (max-width: 768px){
     #playstationow button{
         margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    body > footer > div > div > div:nth-child(3) > div > img{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 576px){
+    body > footer > div > div > div:nth-child(3) > div > img{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 992px){
+    body > footer > div > div > div:nth-child(3) > div > img{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1200px){
+    body > footer > div > div > div:nth-child(3) > div > img{
+        width: 30%;
+    }
+}
+/* @media screen and (min-width: 768px){
+    body > footer > div > div > div.col.col-lg-6 > img{
+        padding-left: 50px;
+    }
+} */
+@media screen and (min-width: 768px){
+    body > footer > div > div > div.col-12.col-lg-6.d-md-flex.justify-content-md-around{
+        
     }
 }
