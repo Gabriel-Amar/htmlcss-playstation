@@ -11,8 +11,11 @@
     margin-top: 12px;
     margin-left: 14px
 }
-#playstation5{
-    margin-top: 40px;
+.header-bottom form button{
+    color: white;
+    background-color: #363636;
+    border-radius: 25px;
+
 }
 #jumbo{
     margin-top: 135px;
@@ -28,43 +31,161 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card{
-    background-color: rgba(0, 0, 0, 0);
-    position: relative;
-    top: 320px;
-    left: 7px;
+#jumbo .container-fluid{
+    float: left;
+    padding-left: 20px;
+    padding-top: 380px;
+}
+#jumbo > div > button, #jumbo2 > div > button{
+    color: white;
+    background-color: #cd3d0f;
+    border-radius: 30px;
+}
+#jumbo2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 695px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumbo2 .container-fluid{
+    float: left;
+    padding-left: 20px;
+    padding-top: 110px;
+}
+#playstationplus{
+    background-color: #bebcbb;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#playstationplus button{
+    color: blue;
+    background-color: #d9dadc;
+    border-radius: 25px;
+}
+#playstationow{
+    background-color: #161c3b;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#playstationow button{
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+#playstationplus > div > div > div:nth-child(1) > img,#playstationow > div > div > div:nth-child(1) > img{
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#playstation5{
+    margin-top: 40px;
 }
 #playstation5 > div:nth-child(1){
     margin-bottom: 100px;
 }
-@media (min-width: 992px) {
-    #console-card > div > div:nth-child(1) > img{
-        width: 100px;
-    }
-}
-@media (min-width: 992px) {
-    #console-card > div > div:nth-child(2) > img{
-        width: 100px;
-    }
-}
-@media (min-width: 992px) {
-    #console-card > div > div:nth-child(3) > img{
-        width: 100px;
-    }
-}
-@media (min-width: 992px) {
-    #console-card > div > div:nth-child(4) > img{
-        width: 100px;
-    }
-}
-@media (min-width: 992px) {
-    #console-card > div > div:nth-child(5) > img{
-        width: 100px;
-    }
+#playstation5 button, #playstation4 button{
+    color: white;
+    background-color: #2c64e5;
+    border-radius: 30px;
 }
 #cards .container-fluid .row div img{
     border-radius: 20px;
 }
 #playstation5 .container-fluid .row div img{
     border-radius: 20px;
+}
+h1{
+    font-size: 2.5em;
+}
+/* @media screen and (max-width: 768px){
+    #jumbo .container-fluid img{
+        width: 75%;
+    }
+} */
+@media screen and (max-width: 576px){
+    #jumbo .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    #jumbo .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1200px){
+    #jumbo .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px){
+    #jumbo .container-fluid {
+        width: 25%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 576px){
+    #jumbo2 .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    #jumbo2 .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1200px){
+    #jumbo2 .container-fluid img{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px){
+    #jumbo2 .container-fluid {
+        width: 25%;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 768px){
+    #console-card .item-container{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px){
+    #playstationplus > div > div > div:nth-child(1) > img{
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    #playstationplus p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    #playstationplus button{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    #playstationow > div > div > div:nth-child(1) > img{
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #playstationow p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    #playstationow button{
+        margin-bottom: 20px;
+    }
 }
