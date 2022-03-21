@@ -15,7 +15,29 @@
     color: white;
     background-color: #363636;
     border-radius: 25px;
-
+}
+ul.dropdown-menu{
+    text-align: center;
+}
+#navbarSupportedContent > ul > li > ul{
+    margin-top: -10px;
+    border: none;
+}
+.dropdown-menu li{
+    display: inline-block;
+    width: auto;
+}
+#navbarSupportedContent > ul > li > ul > li:nth-child(3){
+    display: block;
+}
+#navbarSupportedContent > ul > li > ul > li:nth-child(3){
+    display: block;
+}
+#navbarSupportedContent > form > ul > li > ul > li:nth-child(4){
+    display: block;
+}
+#navbarSupportedContent > form > ul > li > ul > li:nth-child(3){
+    display: block;
 }
 #jumbo{
     margin-top: 135px;
@@ -52,6 +74,26 @@
     float: left;
     padding-left: 20px;
     padding-top: 110px;
+}
+#playstation5 > div:nth-child(1) > div > div.col-6{
+    opacity: 0.5;
+}
+#playstation5 > div:nth-child(1) > div > div.col-6:hover{
+    opacity: 1;
+    position: relative;
+    bottom: 5px;
+}
+#console-card > div > div{
+    opacity: 0.5;
+}
+#console-card > div > div{
+    transition: all .5s;
+}
+#console-card > div > div:hover{
+    opacity: 1;
+}
+#console-card > div > div:nth-child(1){
+    border-bottom: 2px solid blue;
 }
 #playstationplus{
     background-color: #bebcbb;
@@ -105,6 +147,7 @@ footer{
 footer ul li{
     color: white;
     list-style-type: none;
+    white-space: nowrap;
 }
 footer ul{
     width: calc(50% - 2em);
@@ -244,8 +287,10 @@ footer ul{
         padding-left: 50px;
     }
 } */
-@media screen and (min-width: 768px){
-    body > footer > div > div > div.col-12.col-lg-6.d-md-flex.justify-content-md-around{
-        
-    }
+
+
+
+
+.dropdown-menu {
+    width:100% !important;
 }
